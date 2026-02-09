@@ -1,0 +1,11 @@
+services:
+  # ----------------------------
+  # service-name:
+  #   repo: repository URL (required)
+  #   path: local path (optional, defaults to `services/service-name`)
+  #   env: array of environment variables to set (optional)
+  # ----------------------------
+  - life-json-schema:
+      repo: https://github.com/omnidotdev/life-json-schema#master
+  - life-json-site:
+      repo: https://github.com/omnidotdev/life-json-site#master
